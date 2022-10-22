@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #707172;
+}
+
+.App-body {
+  min-height: 100%;
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.App-body button {
+  position: absolute;
+  top: 3rem;
+  background-color: white;
+  padding: .5rem;
+  border-radius: .3rem;
+}
+
+.App-body .pokemons {
+  top: 10rem;
+  position: relative;
+}
+
+.App-body .pokemons .item-container {
+  border: solid .04rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: .2rem;
+  padding: .5rem;
+}
+/*# sourceMappingURL=App.css.map */
